@@ -18,9 +18,9 @@ function isScroll(){
 const body = document.querySelector('body');
 window.addEventListener('resize', () => {
     if (window.innerWidth > 800) {
-      body.style.backgroundColor = 'white';
+        body.style.backgroundColor = 'white';
     } else {
-      body.style.backgroundColor = 'gray';
+        body.style.backgroundColor = 'gray';
     }
 });
 
